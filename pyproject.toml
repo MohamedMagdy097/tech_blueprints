@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "app"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.11.1"
 fastapi = "^0.111.1"
 pydantic = "^2.8.2"
 python-multipart = "^0.0.9"
@@ -16,7 +16,6 @@ langgraph = "^0.1.17"
 llama-index = "^0.10.58"
 langchain = "^0.2.11"
 google-generativeai = ">=0.3.0"
-matplotlib = "^3.9.1"
 qdrant-client = "^1.10.1"
 llama-index-multi-modal-llms-openai = "^0.1.8"
 llama-index-multi-modal-llms-gemini = "^0.1.7"
